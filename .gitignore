@@ -4,7 +4,7 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-src/main/webapp/static/faveicon
+
 .idea/workspace.xml
 .idea/tasks.xml
 .idea
@@ -44,3 +44,15 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+.DS_Store
+DruziProd.iml
+TODO
+external/
+src/.DS_Store
+src/main/.DS_Store
+src/main/java/.DS_Store
+src/main/webapp/.DS_Store
+src/main/webapp/WEB-INF/.DS_Store
+src/main/webapp/WEB-INF/JSP/.DS_Store
+src/main/webapp/static/.DS_Store
+target/
