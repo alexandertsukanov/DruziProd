@@ -113,8 +113,8 @@
 						<configuration>
 							<tasks>
 								<delete dir="${basedir}/src/main/webapp/WEB-INF/lib" />
-								<delete file="${basedir}/src/main/webapp/static/css/resume-common.min.css" />
-								<delete file="${basedir}/src/main/webapp/static/css/resume-ex.min.css" />
+								<delete file="${basedir}/src/main/webapp/static/css/druzi-common.min.css" />
+								<delete file="${basedir}/src/main/webapp/static/css/druzi-ex.min.css" />
 								<delete file="${basedir}/src/main/webapp/static/js/druzi-common.min.js" />
 								<delete file="${basedir}/src/main/webapp/static/js/druzi-ex.min.js" />
 							</tasks>
@@ -133,8 +133,8 @@
 								<copy todir="${basedir}/src/main/webapp/WEB-INF/lib">
 									<fileset dir="${basedir}/target/${project.build.finalName}/WEB-INF/lib" />
 								</copy>
-								<copy file="${basedir}/target/${project.build.finalName}/static/css/resume-common.min.css" tofile="${basedir}/src/main/webapp/static/css/resume-common.min.css" />
-								<copy file="${basedir}/target/${project.build.finalName}/static/css/resume-ex.min.css" tofile="${basedir}/src/main/webapp/static/css/resume-ex.min.css" />
+								<copy file="${basedir}/target/${project.build.finalName}/static/css/druzi-common.min.css" tofile="${basedir}/src/main/webapp/static/css/druzi-common.min.css" />
+								<copy file="${basedir}/target/${project.build.finalName}/static/css/druzi-ex.min.css" tofile="${basedir}/src/main/webapp/static/css/druzi-ex.min.css" />
 								<copy file="${basedir}/target/${project.build.finalName}/static/js/druzi-common.min.js" tofile="${basedir}/src/main/webapp/static/js/druzi-common.min.js" />
 								<copy file="${basedir}/target/${project.build.finalName}/static/js/druzi-ex.min.js" tofile="${basedir}/src/main/webapp/static/js/druzi-ex.min.js" />
 							</tasks>
