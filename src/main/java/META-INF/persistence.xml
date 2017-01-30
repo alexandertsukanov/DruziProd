@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="druzi">
+		<class>tsukanov.druzi.entity.Certificate</class>
+		<class>tsukanov.druzi.entity.Education</class>
+		<class>tsukanov.druzi.entity.Hobby</class>
+		<class>tsukanov.druzi.entity.Language</class>
+		<class>tsukanov.druzi.entity.Practic</class>
+		<class>tsukanov.druzi.entity.Profile</class>
+		<class>tsukanov.druzi.entity.Contacts</class>
+		<class>tsukanov.druzi.entity.ProfileRestore</class>
+		<class>tsukanov.druzi.entity.Skill</class>
+		<class>tsukanov.druzi.entity.SkillCategory</class>
+		<class>tsukanov.druzi.entity.AbstractFinishDateEntity</class>
+		<class>tsukanov.druzi.entity.Course</class>
+	</persistence-unit>
+</persistence>

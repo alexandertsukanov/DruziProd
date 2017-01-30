@@ -1,0 +1,491 @@
+@charset "UTF-8";
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) for font http://www.fontspace.com/alan-carr/sports-and-hobbies */
+@font-face {
+	font-family: "Sports and Hobbies";
+	src: url("../fonts/sporthob.eot?") format("eot"), url("../fonts/sporthob.woff") format("woff"), url("../fonts/sporthob.ttf") format("truetype"), url("../fonts/sporthob.svg#SportsAndHobbies")
+		format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.druzi {
+	background-color: #eae8e7;
+	color: #222;
+}
+
+.druzi .contacts {
+	margin-top: 30px;
+}
+
+.druzi .photo {
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	width: 100%;
+}
+
+.druzi .container {
+	margin-top: 20px;
+}
+
+.druzi .contacts i {
+	font-size: 1.4em;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	width: 25px;
+}
+
+.druzi .hobbies {
+	text-align: center;
+}
+
+.druzi .hobbies i {
+	font-size: 1.8em;
+	margin: 0 5px;
+	color: #767270;
+}
+
+.druzi .hobbies .table>tbody>tr>td {
+	vertical-align: middle;
+}
+
+.druzi .certificates .panel-body {
+	text-align: center;
+}
+
+.druzi .certificates .thumbnail {
+	width: 160px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.druzi .hobby.hobby-cycling::before {
+	content: "\f206"
+}
+
+.druzi .hobby.hobby-handball::before {
+	font-family: "Sports and Hobbies";
+	content: "!"
+}
+
+.druzi .hobby.hobby-football::before {
+	font-family: "Sports and Hobbies";
+	content: "#"
+}
+
+.druzi .hobby.hobby-basketball::before {
+	font-family: "Sports and Hobbies";
+	content: "U"
+}
+
+.druzi .hobby.hobby-bowling::before {
+	font-family: "Sports and Hobbies";
+	content: ")"
+}
+
+.druzi .hobby.hobby-boxing::before {
+	font-family: "Sports and Hobbies";
+	content: "J"
+}
+
+.druzi .hobby.hobby-volleyball::before {
+	font-family: "Sports and Hobbies";
+	content: "'"
+}
+
+.druzi .hobby.hobby-baseball::before {
+	font-family: "Sports and Hobbies";
+	content: "O"
+}
+
+.druzi .hobby.hobby-skating::before {
+	font-family: "Sports and Hobbies";
+	content: "@"
+}
+
+.druzi .hobby.hobby-skiing::before {
+	font-family: "Sports and Hobbies";
+	content: "D"
+}
+
+.druzi .hobby.hobby-table-tennis::before {
+	font-family: "Sports and Hobbies";
+	content: "4"
+}
+
+.druzi .hobby.hobby-tennis::before {
+	font-family: "Sports and Hobbies";
+	content: "2"
+}
+
+.druzi .hobby.hobby-weightlifting::before {
+	font-family: "Sports and Hobbies";
+	content: "L"
+}
+
+.druzi .hobby.hobby-cricket::before {
+	font-family: "Sports and Hobbies";
+	content: "%"
+}
+
+.druzi .hobby.hobby-automobiles::before {
+	content: "\f1b9"
+}
+
+.druzi .hobby.hobby-book-reading::before {
+	content: "\f02d"
+}
+
+.druzi .hobby.hobby-photo::before {
+	content: "\f030"
+}
+
+.druzi .hobby.hobby-shopping:before {
+	content: "\f290"
+}
+
+.druzi .hobby.hobby-cooking:before {
+	content: "\f0f5"
+}
+
+.druzi .hobby.hobby-codding:before {
+	content: "\f121"
+}
+
+.druzi .hobby.hobby-animals:before {
+	content: "\f1b0"
+}
+
+.druzi .hobby.hobby-traveling:before {
+	content: "\f0f2"
+}
+
+.druzi .hobby.hobby-movie:before {
+	content: "\f26c"
+}
+
+.druzi .hobby.hobby-painting:before {
+	content: "\f1fc"
+}
+
+.druzi .hobby.hobby-darts::before {
+	font-family: "Sports and Hobbies";
+	content: "b"
+}
+
+.druzi .hobby.hobby-fishing::before {
+	font-family: "Sports and Hobbies";
+	content: "f"
+}
+
+.druzi .hobby.hobby-kayak-slalom::before {
+	font-family: "Sports and Hobbies";
+	content: "t"
+}
+
+.druzi .hobby.hobby-games-of-chance::before {
+	font-family: "Sports and Hobbies";
+	content: "x"
+}
+
+.druzi .hobby.hobby-ice-hockey::before {
+	font-family: "Sports and Hobbies";
+	content: "P"
+}
+
+.druzi .hobby.hobby-roller-skating::before {
+	font-family: "Sports and Hobbies";
+	content: "A"
+}
+
+.druzi .hobby.hobby-swimming::before {
+	font-family: "Sports and Hobbies";
+	content: "I"
+}
+
+.druzi .hobby.hobby-diving::before {
+	font-family: "Sports and Hobbies";
+	content: "<"
+}
+
+.druzi .hobby.hobby-golf::before {
+	font-family: "Sports and Hobbies";
+	content: "8"
+}
+
+.druzi .hobby.hobby-shooting::before {
+	font-family: "Sports and Hobbies";
+	content: "]"
+}
+
+.druzi .hobby.hobby-rowing::before {
+	font-family: "Sports and Hobbies";
+	content: "u"
+}
+
+.druzi .hobby.hobby-camping::before {
+	font-family: "Sports and Hobbies";
+	content: "d"
+}
+
+.druzi .hobby.hobby-archery::before {
+	font-family: "Sports and Hobbies";
+	content: "^"
+}
+
+.druzi .hobby.hobby-pubs::before {
+	content: "\f0fc"
+}
+
+.druzi .hobby.hobby-music::before {
+	content: "\f001"
+}
+
+.druzi .hobby.hobby-computer-games::before {
+	content: "\f11b"
+}
+
+.druzi .hobby.hobby-authorship::before {
+	content: "\f11c"
+}
+
+.druzi .hobby.hobby-foreign-lang::before {
+	content: "\f1ab"
+}
+
+.druzi .hobby.hobby-singing::before {
+	content: "\f130"
+}
+
+.druzi .hobby.hobby-billiards::before {
+	font-family: "Sports and Hobbies";
+	content: "-"
+}
+
+.druzi .hobby.hobby-skateboarding::before {
+	font-family: "Sports and Hobbies";
+	content: "W"
+}
+
+.druzi .hobby.hobby-collecting::before {
+	content: "\f1c5"
+}
+
+.druzi .hobby.hobby-badminton::before {
+	font-family: "Sports and Hobbies";
+	content: "."
+}
+
+.druzi .hobby.hobby-disco::before {
+	content: "\f0c0"
+}
+
+.druzi a.navbar-brand {
+	padding: 15px;
+	font-size: 1.4em;
+}
+
+.druzi .profiles .photo {
+	width: 110px;
+	height: 110px;
+	border-radius: 4px;
+}
+
+.druzi blockquote .small::before, .druzi blockquote footer::before, .druzi blockquote small::before {
+	content: "";
+}
+
+.druzi .profiles blockquote {
+	margin: 0;
+	padding-left: 8px;
+}
+
+.druzi .profiles .search-result-item p {
+	margin: 1px 0;
+}
+
+.druzi .well p {
+	margin: 0;
+}
+
+.druzi .data-form img.edit-photo {
+	width: 250px;
+	height: 250px;
+}
+
+.druzi .data-form blockquote {
+	font-size: 14px;
+	margin: 0;
+	text-align: justify;
+}
+
+.druzi .data-form .help-block {
+	margin-bottom: 5px;
+}
+
+@media ( max-width :768px) {
+	.druzi .data-form blockquote {
+		border: 0;
+		padding-left: 0;
+	}
+	.druzi .data-form .form-group {
+		margin: 0;
+	}
+}
+
+.druzi .data-form .form-group {
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+}
+
+.druzi .data-header {
+	text-align: center;
+	margin: 5px 0 15px;
+}
+
+.druzi .hobby-btn {
+	text-align: left;
+	font-size: 20px;
+	margin: 5px 0;
+	position: relative;
+	padding-left: 50px;
+}
+
+.druzi .hobby-btn i {
+	position: absolute;
+	left: 10px;
+	font-size: 1.3em;
+	top: 8px;
+	text-align: center;
+	width: 30px;
+}
+
+.druzi .btn.hobby-btn.active, .druzi .btn.hobby-btn:active {
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+	color: white;
+}
+
+.druzi .skill-delim {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-bottom: 1px solid #eee;
+}
+
+.druzi .skill-delim .alert {
+	margin-bottom: 0;
+}
+
+.druzi .skill-item textarea {
+	margin-right: 20px;
+}
+
+.druzi .skill-item .value-container {
+	position: relative;
+}
+
+.druzi .skill-item .value-container .close {
+	position: absolute;
+	right: 15px;
+	top: -5px;
+}
+
+.druzi a.edit-block {
+	color: #fffaf0;
+	float: right;
+	font-size: 0.9em;
+	text-decoration: underline;
+}
+
+.druzi a.certificate:hover, .druzi a.certificate:hover span {
+	text-decoration: none;
+}
+
+.druzi #loadMoreContainer {
+	margin-bottom: 15px;
+}
+
+.druzi #loadMoreIndicator img {
+	width: 30px;
+	height: 30px;
+}
+
+.druzi .small-center-block {
+	width: 440px;
+	margin: 0 auto;
+}
+
+.druzi .profile-menu a {
+	position: relative;
+}
+
+.druzi .profile-menu a i {
+	display: block;
+	float: left;
+	width: 22px;
+	font-size: 1.2em;
+	text-align: center;
+	padding-top: 2px;
+}
+
+.druzi .form-control-feedback {
+	right: 15px;
+}
+
+.druzi .edit-languages .form-control-feedback {
+	right: 5px;
+}
+
+.druzi .edit-password .form-control-feedback {
+	right: 0px;
+}
+
+.druzi h1 {
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+@media ( max-width : 767px) {
+	.druzi .caption {
+		font-size: 20px;
+	}
+}
+
+@media ( min-width : 768px) and (max-width: 991px) {
+	.druzi .caption {
+		font-size: 24px;
+	}
+}
+
+@media ( min-width : 992px) and (max-width: 1199px) {
+	.druzi .caption {
+		font-size: 26px;
+	}
+}
+
+@media ( min-width : 1200px) {
+	.druzi .caption {
+		font-size: 36px;
+	}
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
+}
