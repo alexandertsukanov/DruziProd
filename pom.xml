@@ -53,14 +53,14 @@
 								<cssSourceFile>app.css</cssSourceFile>
 							</cssSourceFiles>
 							<cssTargetDir>/static/css</cssTargetDir>
-							<cssFinalFile>resume-common.css</cssFinalFile>
+							<cssFinalFile>druzi-common.css</cssFinalFile>
 							<jsSourceDir>/static/js</jsSourceDir>
 							<jsSourceFiles>
 								<jsSourceFile>jquery-2.2.2.js</jsSourceFile>
 								<jsSourceFile>bootstrap-3.3.6.js</jsSourceFile>
 								<jsSourceFile>app.js</jsSourceFile>
 							</jsSourceFiles>
-							<jsFinalFile>resume-common.js</jsFinalFile>
+							<jsFinalFile>druzi-common.js</jsFinalFile>
 							<jsTargetDir>/static/js</jsTargetDir>
 							<verbose>true</verbose>
 							<jsEngine>CLOSURE</jsEngine>
@@ -82,7 +82,7 @@
 								<cssSourceFile>fileinput-4.3.2.css</cssSourceFile>
 							</cssSourceFiles>
 							<cssTargetDir>/static/css</cssTargetDir>
-							<cssFinalFile>resume-ex.css</cssFinalFile>
+							<cssFinalFile>druzi-ex.css</cssFinalFile>
 							<jsSourceDir>/static/js</jsSourceDir>
 							<jsSourceFiles>
 								<jsSourceFile>bootstrap-datepicker-1.6.0.js</jsSourceFile>
@@ -90,7 +90,7 @@
 								<jsSourceFile>handlebars-4.0.5.js</jsSourceFile>
 								<jsSourceFile>fileinput-4.3.2.js</jsSourceFile>
 							</jsSourceFiles>
-							<jsFinalFile>resume-ex.js</jsFinalFile>
+							<jsFinalFile>druzi-ex.js</jsFinalFile>
 							<jsTargetDir>/static/js</jsTargetDir>
 							<verbose>true</verbose>
 							<jsEngine>CLOSURE</jsEngine>
